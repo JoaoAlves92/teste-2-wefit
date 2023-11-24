@@ -1,46 +1,27 @@
-# Getting Started with Create React App
+# WeMovies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
+O projeto proposto é um aplicativo React baseado em TypeScript, integrando a arquitetura de gerenciamento de estado Redux para criar um pequeno commerce de filmes. Este commerce possui funcionalidades como navegação de filmes, um carrinho de compras e a capacidade de finalizar uma compra (sem a implementação de uma tela de pagamento).
 
-## Available Scripts
+## Rodando o projeto
+O script de start irá iniciar tanto o aplicativo quanto o servidor json de conteudo:
 
-In the project directory, you can run:
+```bash
+$ yarn start
+```
 
-### `yarn start`
+Pode iniciar somente a aplicação react:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+$ yarn start-app
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Stack utilizada
+ReactJS, Typescript, Redux, Styled Components, Axios
 
-### `yarn test`
+<div style="display: flex; justify-content: space-between; margin-bottom:1rem;">
+  <img src="images/imagem1.png" alt="Tela inicial com 3 itens no carrinho" width="48%">
+  <img src="images/imagem2.png" alt="Tela do Carrinho mostrando os produtos selecionados" width="48%">
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src="images/imagem3.png" alt="Tela de confirmação do pedido" width="100%">
